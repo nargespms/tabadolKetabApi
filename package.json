@@ -1,0 +1,19 @@
+{
+  "name": "tabadolapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "fastify": "^3.6.0",
+    "fastify-oas": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
