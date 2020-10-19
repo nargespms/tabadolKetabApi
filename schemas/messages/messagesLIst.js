@@ -1,7 +1,7 @@
 
 
 const messagesList = {
-  $id: 'Messages list',
+  $id: 'MessagesList',
   title: 'messages List',
   description: 'List for messages',
   type: 'array',

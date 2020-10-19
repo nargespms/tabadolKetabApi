@@ -1,7 +1,7 @@
 
 
 const ticketsList = {
-  $id: 'tickets list',
+  $id: 'ticketsList',
   title: 'tickets List',
   description: 'List for tickets',
   type: 'array',
