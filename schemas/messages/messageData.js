@@ -1,6 +1,3 @@
-const { strict } = require("assert");
-const { stringify } = require("querystring");
-
 
 const messageData = {
   $id: 'MessagesData',
