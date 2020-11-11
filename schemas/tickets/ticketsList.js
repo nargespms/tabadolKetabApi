@@ -42,14 +42,17 @@ const ticketsList = {
             type: 'object',
             properties: {
                 id: {
-                type: 'string',
+                  type: 'string',
                 },
                 title: {
-                type: 'string',
+                  type: 'string',
                 },
             
                 sendDate: {
-                type: 'string',
+                  type: 'string',
+                },
+                status: {
+                  type: 'string',
                 },
                 receiver:{
                     type:Object,
