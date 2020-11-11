@@ -41,8 +41,31 @@ const messagesList = {
                 }
             },
             attachments: {
-              type:'boolean'
-            },
+              type: 'array',
+              items: {
+                  type: 'object',
+                  properties: {
+                  _id: {
+                      type: 'string',
+                  },
+                  fileName: {
+                      type: 'string',
+                  },
+                  view: {
+                      type: 'string',
+                  },
+                  fullViewUrl: {
+                      type: 'string',
+                  },
+                  extension: {
+                      type: 'string',
+                  },
+                  type: {
+                      type: 'string',
+                  },
+                  },
+              },
+          },
             sender:{
                 type:Object,
                 properties: {

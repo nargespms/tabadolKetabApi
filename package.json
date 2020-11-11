@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "awilix": "^4.2.6",
     "fastify": "^3.6.0",
     "fastify-oas": "^3.0.3"
   },

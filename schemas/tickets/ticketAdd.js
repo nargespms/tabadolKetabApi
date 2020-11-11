@@ -1,25 +1,21 @@
 
-const messageData = {
-  $id: 'MessagesData',
-  title: 'messages data',
-  description: 'data for messages',
+const ticketData = {
+  $id: 'ticketData',
+  title: 'tickets data',
+  description: 'data for tickets',
   type: 'object',
   properties: {
     message: {
       type: 'object',
       properties: {
         id: {
-        type: 'string',
+          type: 'string',
         },
         title: {
           type: 'string',
           required:true,
         },
-        messageText: {
-          type: 'string',
-          required:true,
-        },
-        sendDate: {
+        messagetext: {
           type: 'string',
           required:true,
         },
@@ -49,17 +45,15 @@ const messageData = {
             },
           },
         },
-        messageType:{
+        department:{
             type:'string',
+            // if staff
+            required:true,
         },
-        sendSms:{
-            type:'boolean',
-        },
-        recieverGroup:{
-            type:'string',
-        },
-        reciverUsers:{
+        recieversUsers:{
             type:'array',
+            // if clients
+            required:true,
             items:{
                 id:{
                     type:stringify,
@@ -73,5 +67,5 @@ const messageData = {
 };
 
 module.exports = {
-  messageData,
+  ticketData,
 };
