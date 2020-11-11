@@ -73,9 +73,6 @@ const discountsList = {
                 amount:{
                     type:'number'
                 },
-                number:{
-                    type:'number',
-                },
                 usedNumber:{
                     type:'number'
                 },
