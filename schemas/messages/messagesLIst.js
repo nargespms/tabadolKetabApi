@@ -17,9 +17,7 @@ const messagesList = {
             title: {
               type: 'string',
             },
-            messageSummery: {
-              type: 'string',
-            },
+           
             sendDate: {
               type: 'string',
             },
