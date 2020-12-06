@@ -13,26 +13,26 @@ const generalSettings = {
         },
         postPrice:{
             type:'number'
-        }
+        },
         creditExpireTimeFromSellBook:{
             type:'string'
-        }
+        },
         tabadolWageForSell:{
             type:'number'
-        }
+        },
         discountForRangeDate:{
-            type:'object'
-            properties:{
-                from:{
-                    type:'number'
-                },
-                to:{
-                    type:'number'
-                },
-                percent:{
-                    type:'number'
-                },
-            }
+          type:'object'
+          properties:{
+            from:{
+                type:'number'
+            },
+            to:{
+                type:'number'
+            },
+            percent:{
+                type:'number'
+            },
+          }
         }
       },
     },
