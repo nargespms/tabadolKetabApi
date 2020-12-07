@@ -81,7 +81,7 @@ const ordersList = {
                     type: 'string',
                 },
                 post: {
-                    type: 'string',
+                    type: 'boolean',
                 },
                 doneDate:{
                     type:'string'
